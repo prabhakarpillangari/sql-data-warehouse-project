@@ -48,6 +48,34 @@ Specifications
   <li>Documentation: Provide clear documentation of the data model to support both business stakeholders and analytics teams.</li>
 </ul>
 <hr>
+## 📂 Repository Structure
+
+```
+data-warehouse-project/
+│
+├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
+│
+├── docs/                               
+│   ├── data_architecture               # png shows the project's architecture 
+│   ├── data_layers                     
+│   ├── data_flow                      
+│   ├── data_integration                
+│   ├── data_layers                     
+│   ├── data-model                      
+│   ├── naming-conventions.md           # Consistent naming guidelines for tables, columns, and files
+│
+├── scripts/                            # SQL scripts for ETL and transformations
+│   ├── bronze/                         # Scripts for extracting and loading raw data
+│   ├── silver/                         # Scripts for cleaning and transforming data
+│   ├── gold/                           # Scripts for creating analytical models
+│
+├── tests/                              # Test scripts and quality files
+
+├── LICENSE                             # License information for the repository
+└── README.md                           # Project overview and instructions
+```
+---
+<hr>
 <h1 style="font-size: 56px;">🌟 About Me </h1> 
 Hi there! I'm Prabhakar Pillangari. I’m an IT professional.
 
