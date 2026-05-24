@@ -141,7 +141,7 @@ tables and fact tables for specific business metrics.
   </tbody>
 </table>
  <hr>
-<h2>2. gold.fact_sales</h2>
+<h2>3. gold.fact_sales</h2>
 <ul>
   <li>Purpose: Stores transactional sales data for analytical purposes.</li>
   <li>Columns:</li>
